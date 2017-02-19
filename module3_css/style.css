@@ -143,8 +143,11 @@ div#main_content h1{
 div#main_content section h3{
 		padding-top: 20px;
 	}
-	
-		
+/*
+section#mid{
+		background-color: #CCC
+	}
+*/		
 section#low{
 		background-color: white; 
 	}
@@ -182,9 +185,11 @@ p.toes{
 /*******************      MEDIA QUERIES    ******************************/
 
 @media (min-width: 992px){
-		section#low{
+		section#low {
 				background-color: green;
 			}
+			
+			
 	}
 	
 @media (max-width: 767px){
@@ -192,14 +197,18 @@ p.toes{
 		/* border: 1px solid black; */
 		margin: 0;
 		border-top: 1px solid #0F3; /*   dividing line of ul list with navbar header  */
+		
+		
 	}	
 
 		footer hr{
 			align: center;
 			width: 60%;
-			
-			
-			
+						
 		}
+		
+	section#mid {
+				background-color: #CCC;	
 
 	}	
+}
