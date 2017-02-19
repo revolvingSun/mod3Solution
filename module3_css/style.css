@@ -1,0 +1,205 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;	
+	
+}
+
+body{
+	background-color: green;
+	}
+	
+	
+header{
+		/* background-color: pink; */
+		/* border: 2px solid blue; */
+		position: relative;
+		padding: 0;
+		margin: 0;
+		
+	}	
+/* 
+.container{
+		border: 1px solid white;
+		
+	}
+*/
+
+.navbar{
+		border: 1px solid black;
+		
+	}
+		
+
+nav#header_nav{
+		
+		
+		background-color: yellow;
+		border-radius: 0;
+		border: 0;
+		/* opacity: 0.5; */
+		border-bottom: 1px solid black;
+	}
+
+div#containee{
+		/* border: 1px solid red; */
+		
+		
+	}
+
+nav div.navbar-brand{
+		/* border: 1px solid black;  */
+		
+	}
+	
+nav div.navbar-brand h1{	
+	font-size: 1.5em; 
+	margin: 0;
+	text-transform: uppercase;
+	/* position: relative;*/
+	
+	
+	
+}
+
+div#menus_list li.listings{
+		/* display: block; */
+		text-align: center;
+		font-size: 1.2em;
+		vertical-align: baseline;
+		
+		text-transform: uppercase;
+		color: white;
+		
+	}
+	
+div#menus_list{
+		/* border: 1px solid black; */
+		margin: 0;
+		
+	}	
+
+li.listings a{
+		text-decoration: none;
+	}
+
+li.listings:hover {
+	
+		
+		color: black;
+		
+		background-color: #FFC;
+	}
+
+button#corn, button#corn .icon-bar{
+	border: 1px solid red;
+	
+	
+}
+	
+button#corn:hover{
+		background-color: #0FC;
+	}
+
+button#corn:focus{
+		background-color: yellow;
+	}	
+	
+/***********************           MAIN CONTENT       *************************/
+
+
+section.meals h3{
+		text-align: center;
+		margin-bottom: 20px;
+		
+	}
+
+
+div#main_content{
+		margin-bottom: 25px;
+	}
+
+section.meals span a{
+		margin-left: 20px;
+		color: #03C;
+		
+	}
+
+section.meals p span a:hover{
+		text-decoration: none;
+		
+	}
+
+div#main_content h1{
+		border-bottom: 1px solid black;
+		text-align: center;
+		margin-bottom: 25px;
+		
+	}
+	
+div#main_content section h3{
+		padding-top: 20px;
+	}
+	
+		
+section#low{
+		background-color: white; 
+	}
+
+	
+/***************************           FOOTER     *************************/
+
+footer{ 
+		background-color: yellow;
+		
+	}
+
+footer div.container{
+		/* border: 1px solid black;	 */
+		
+	}
+
+.footsie{
+		
+		padding-top: 20px;
+		/* border: 1px solid red; */
+		padding: 0;
+		
+		
+			}
+
+p.toes{
+	/* border: 1px solid black; */
+	/* background-color: grey; */
+	padding: 15px 10px 10px 10px;
+	
+	margin: 0 5px 35px 5px;
+}
+
+/*******************      MEDIA QUERIES    ******************************/
+
+@media (min-width: 992px){
+		section#low{
+				background-color: green;
+			}
+	}
+	
+@media (max-width: 767px){
+		div#menus_list{
+		/* border: 1px solid black; */
+		margin: 0;
+		border-top: 1px solid #0F3; /*   dividing line of ul list with navbar header  */
+	}	
+
+		footer hr{
+			align: center;
+			width: 60%;
+			
+			
+			
+		}
+
+	}	

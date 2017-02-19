@@ -12,21 +12,139 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-<title></title>
-
-<link rel="stylesheet" href="css/styles.css">
+<title>Module3 Solution</title>
+<link rel="stylesheet" href="module3_css/bootstrap.css" type="text/css">
+<link rel="stylesheet" href="module3_css/style.css" type="text/css">
 
 </head>
 
 <body>
 
+<header>
+	
+	
+	<nav id="header_nav" class="navbar navbar-default" role="navigation" >
+	   	<div id="containee" class="container">	
+        	
+        	<div class="navbar-header">
+         	 <a href="index.html">
+             	<div class="navbar-brand "><h1>Food, LLC</h1>
+             	</div>
+             </a>
+             
+             <button id="corn" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menus_list" aria-expanded="false" >
+             		<span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+             		<span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+             </button>
+             
+         	
+       		</div> <!------------------     NAVBAR HEADER   ------------------->
+            
+            
+            <div id="menus_list" class="collapse navbar-collapse"><!---------      Menus    ---------->
+            	
+                <ul class="nav navbar-nav navbar-right "> <!-- hidden-sm hidden-md hidden-lg -->
+                	<li class="listings"><a>Chicken</a></li>
+                	<li class="listings "><a>Beef</a></li>
+                    <li class="listings "><a>Sushi</a></li>
+                </ul>
+              
+            </div>  
+            
+            
+      		
+            
+            
+        </div> <!-----------------   END OF  CONTAINER  ------------------>
+    
+   </nav> 
+		
+</header>
 
-<div>Hello!</div>
+<div id="main_content" class="container">
+	
+	<h1>Our Menu</h1>
+	<div class="row">
+    <section class="meals col-sm-6 col-md-4">
+    <h3 id="chicken">Chicken</h3>
+ 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis lorem leo, non pretium erat commodo accumsan. Aliquam erat volutpat. Fusce tempor tortor non egestas accumsan. Cras convallis condimentum pellentesque. Duis efficitur massa a tellus dapibus, non posuere mi sagittis. Pellentesque nec mi velit. Nulla cursus eros orci, id iaculis sapien tristique sit amet. Cras ac egestas urna. Nullam ut ex volutpat, ornare ligula vel, sollicitudin arcu. Praesent eleifend sit amet felis eget tempus. Nunc eu libero in tellus tristique scelerisque. Mauris suscipit ultricies libero, eget hendrerit dui eleifend maximus. In a iaculis massa. Sed vitae enim eu diam pellentesque semper id ac nisl. Integer felis diam, dapibus sed ante non, aliquam consectetur est.</p><br>
+    
+    <p>Nulla ac porttitor lorem. Morbi malesuada eros sit amet varius dictum. Aliquam elementum enim sapien, rhoncus egestas sem dictum eu. Vestibulum ac quam tristique, pellentesque nisi eget, vulputate ipsum. Sed at malesuada quam, id ornare sapien. Praesent interdum dignissim eros in pharetra. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p><br>
+    
+    <p>Cras augue massa, facilisis vel ante tincidunt, sagittis consequat turpis. Cras mattis, sem vitae dictum efficitur, justo massa auctor nunc, a bibendum nisl dolor sed enim. Vestibulum aliquam tincidunt lectus sed volutpat. Duis vehicula varius velit, nec laoreet nunc mattis at. Sed facilisis pharetra elit id suscipit. Praesent fringilla nulla eget justo blandit fringilla. Aliquam ut mollis magna. Curabitur bibendum gravida turpis eget efficitur. Nam dignissim turpis ac sem ullamcorper imperdiet. Aenean felis ipsum, blandit vel nibh at, cursus cursus leo.</p><br>
+    <p>End of Chicken section.<span class="hidden-lg"><a href="#chicken">Back to Top</a></span></p><br>
+    </section>
+    
+    
+    <section class="meals col-sm-6 col-md-4">
+    <h3 id="beef">Beef</h3>
+ 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis lorem leo, non pretium erat commodo accumsan. Aliquam erat volutpat. Fusce tempor tortor non egestas accumsan. Cras convallis condimentum pellentesque. Duis efficitur massa a tellus dapibus, non posuere mi sagittis. Pellentesque nec mi velit. Nulla cursus eros orci, id iaculis sapien tristique sit amet. Cras ac egestas urna. Nullam ut ex volutpat, ornare ligula vel, sollicitudin arcu. Praesent eleifend sit amet felis eget tempus. Nunc eu libero in tellus tristique scelerisque. Mauris suscipit ultricies libero, eget hendrerit dui eleifend maximus. In a iaculis massa. Sed vitae enim eu diam pellentesque semper id ac nisl. Integer felis diam, dapibus sed ante non, aliquam consectetur est.</p><br>
+    
+    <p>Nulla ac porttitor lorem. Morbi malesuada eros sit amet varius dictum. Aliquam elementum enim sapien, rhoncus egestas sem dictum eu. Vestibulum ac quam tristique, pellentesque nisi eget, vulputate ipsum. Sed at malesuada quam, id ornare sapien. Praesent interdum dignissim eros in pharetra. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p><br>
+    
+    <p>Cras augue massa, facilisis vel ante tincidunt, sagittis consequat turpis. Cras mattis, sem vitae dictum efficitur, justo massa auctor nunc, a bibendum nisl dolor sed enim. Vestibulum aliquam tincidunt lectus sed volutpat. Duis vehicula varius velit, nec laoreet nunc mattis at. Sed facilisis pharetra elit id suscipit. Praesent fringilla nulla eget justo blandit fringilla. Aliquam ut mollis magna. Curabitur bibendum gravida turpis eget efficitur. Nam dignissim turpis ac sem ullamcorper imperdiet. Aenean felis ipsum, blandit vel nibh at, cursus cursus leo.</p><br>
+    <p>End of Beef section.<span class="hidden-lg"><a href="#beef">Back to Top</a></span></p><br>
+    </section>
+    
+    <section id="low" class="meals col-sm-12 col-md-4">
+    <h3 id="sushi">Sushi</h3>
+ 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis lorem leo, non pretium erat commodo accumsan. Aliquam erat volutpat. Fusce tempor tortor non egestas accumsan. Cras convallis condimentum pellentesque. Duis efficitur massa a tellus dapibus, non posuere mi sagittis. Pellentesque nec mi velit. Nulla cursus eros orci, id iaculis sapien tristique sit amet. Cras ac egestas urna. Nullam ut ex volutpat, ornare ligula vel, sollicitudin arcu. Praesent eleifend sit amet felis eget tempus. Nunc eu libero in tellus tristique scelerisque. Mauris suscipit ultricies libero, eget hendrerit dui eleifend maximus. In a iaculis massa. Sed vitae enim eu diam pellentesque semper id ac nisl. Integer felis diam, dapibus sed ante non, aliquam consectetur est.</p><br>
+    
+    <p>Nulla ac porttitor lorem. Morbi malesuada eros sit amet varius dictum. Aliquam elementum enim sapien, rhoncus egestas sem dictum eu. Vestibulum ac quam tristique, pellentesque nisi eget, vulputate ipsum. Sed at malesuada quam, id ornare sapien. Praesent interdum dignissim eros in pharetra. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p><br>
+    
+    <p>Cras augue massa, facilisis vel ante tincidunt, sagittis consequat turpis. Cras mattis, sem vitae dictum efficitur, justo massa auctor nunc, a bibendum nisl dolor sed enim. Vestibulum aliquam tincidunt lectus sed volutpat. Duis vehicula varius velit, nec laoreet nunc mattis at. Sed facilisis pharetra elit id suscipit. Praesent fringilla nulla eget justo blandit fringilla. Aliquam ut mollis magna. Curabitur bibendum gravida turpis eget efficitur. Nam dignissim turpis ac sem ullamcorper imperdiet. Aenean felis ipsum, blandit vel nibh at, cursus cursus leo.</p><br>
+    <p>End of Sushi section.<span class="hidden-lg"><a href="#sushi">Back to Top</a></span></p><br>
+    </section>
+    
+    
+	</div><!-----------------    END OF   ROW   ------------->
+</div>
 
+
+
+
+<footer>
+	<div class="container">
+    <div class="row">
+	<div class="footsie col-sm-4">
+    	<p class="toes">
+        	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis lorem leo, non pretium erat commodo accumsan. Aliquam erat volutpat. Fusce tempor tortor non egestas accumsan. Cras convallis condimentum pellentesque. Duis efficitur massa a tellus dapibus, non posuere mi sagittis. Pellentesque nec mi velit.
+        </p>	
+       
+    </div> 
+     
+    <div class="footsie col-sm-4">
+    	<p class="toes">
+        	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis lorem leo, non pretium erat commodo accumsan. Aliquam erat volutpat. Fusce tempor tortor non egestas accumsan. Cras convallis condimentum pellentesque. Duis efficitur massa a tellus dapibus, non posuere mi sagittis. Pellentesque nec mi velit.
+        </p>
+       
+    </div>
+     
+    
+    <div class="footsie col-sm-4">
+    	<p class="toes">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis lorem leo, non pretium erat commodo accumsan. Aliquam erat volutpat. Fusce tempor tortor non egestas accumsan. Cras convallis condimentum pellentesque. Duis efficitur massa a tellus dapibus, non posuere mi sagittis. Pellentesque nec mi velit.
+        
+        
+        </p>
+        	
+    </div>
+    
+    </div><!----------- row  ---------->
+</div><!--    CONTAINER  ------>
+</footer>
 
  <!-- jQuery (Bootstrap JS plugins depend on it) -->
-<script src="js/jquery-1.11.3.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/script.js"></script>
+ 
+ <!-- jQuery (Bootstrap JS plugins depend on it) -->
+<script src="module3_js/jquery-2.1.4.min.js" type="text/jscript"></script> 
+<script src="module3_js/bootstrap.min.js" type="text/jscript"></script>   
+ 
+ <script src="module3_js/bootstrap.js" type="text/jscript"></script>
+ 
+ 
+
 </body>
 </html>
